@@ -3,15 +3,20 @@
 This project aims to perform stream processing from an IoT device using Apache Spark’s Structured Streaming API
 
 The project consists of Heterogeneity Human Activity Recognition (HHAR) dataset from Smartphones
-and Smartwatches. This is a dataset devised to benchmark human activity recognition algorithms
+and Smartwatches. 
+
+This is a dataset devised to benchmark human activity recognition algorithms
 (classification, automatic data segmentation, sensor fusion, feature extraction, etc.) in real-world
 contexts; specifically, the dataset is gathered with a variety of different device models and use-
 scenarios, in order to reflect sensing heterogeneities to be expected in real deployments.
+
 Take a look here to know more about the data we will use:
 https://archive.ics.uci.edu/ml/datasets/Heterogeneity+Activity+Recognition#
+
 This data measures the orientation of a sensor along x,y,z dimensions as 9 subjects perform
 various activities (gt). The device and model are recorded, as well as various timestamps and an
 index.
+
 The file consists of the following columns:
 • 'Arrival_Time' - The time the measurement arrived to the sensing application
 • 'Creation_Time' - The timestamp the OS attaches to the sample
